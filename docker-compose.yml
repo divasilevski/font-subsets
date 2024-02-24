@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build: .
+    command: |
+      bash -c 'pyftsubset fonts/* --unicodes-file=unicodes.txt --flavor=woff2'
+    volumes:
+      - .:/app
+    working_dir: /app
