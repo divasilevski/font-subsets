@@ -18,6 +18,6 @@ Unicode character sets can be found on [symbl.cc](https://symbl.cc/en/unicode/bl
 ## Command
 Documentation for the subset command can be found on the [fonttools.readthedocs.io](https://fonttools.readthedocs.io/en/latest/subset/). Some useful things:
 
-- Use a flag `--flavor=woff2`, `--with-zopfli --flavor=woff` or `--flavor=ttf` to generate fonts in the required formats.
+- Use a flag `--flavor=woff2` or `--with-zopfli --flavor=woff` to generate fonts in the required formats.
 - Use a flag `--layout-features-=frac,nums,dnom` to remove some features.
 - Use a flag `--verbose` to display information of the subsetting process.
